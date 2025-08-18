@@ -1,0 +1,201 @@
+body, html{
+    margin: 0;
+}
+
+.page_container{
+  width: 1700px;
+  margin: 0 auto;
+  height: 100vh;
+  border: 1px solid #ccc;
+}
+
+header{
+    background-color: #3D3D3D;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+}
+header h1{
+    padding-left: 20px;
+    font-size:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+nav{
+    align-items: center;
+    padding: 15px;
+}
+nav ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+nav ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.hero_image{
+    background-image: url("hero_mountain_bike.jpg");
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+}
+
+.hero_text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+}
+.hero_text h1{
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0px;
+}
+.hero_text p{
+    font-size: 30px;
+    padding-left: 10px;
+}
+.hero_text button{
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.hero_text h1, p{
+    color: white;
+}
+
+.about_section{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about_section img{
+    padding-left: 125px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.about_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bor
+}
+.about_button a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid #3D3D3D;
+    border-radius: 8px;
+    background-color: #ffffff;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.learn_more{
+    background-color: #EDF4ED;
+    margin-right: 200px;
+    padding: 10px;
+}
+.learn_more h2{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.learn_more p{
+    color: #3D3D3D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact_section{
+    background-color: #EDF4ED;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact_section img{
+    padding-right: 125px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.gear_up{
+    background-color: white;
+    margin-left: 200px;
+    padding: 10px;
+}
+.gear_up h2{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.gear_up p{
+    color: #3D3D3D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bor
+}
+.contact_button a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid #3D3D3D;
+    border-radius: 8px;
+    background-color: #EDF4ED;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    background-color: #3D3D3D;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img{
+    margin: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
