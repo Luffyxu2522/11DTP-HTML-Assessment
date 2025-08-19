@@ -76,17 +76,29 @@ nav ul a{
     font-size: 60px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 0px;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
 }
 .hero_text p{
     font-size: 30px;
     padding-left: 10px;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
 }
 .hero_text button{
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+    background-color: white;
+    color: #3D3D3D;
+    transform: all 0.3 ease;
 }
+.hero_text button:hover{
+    background-color: #3D3D3D;
+    color: white;
+}
+
 .hero_text h1, p{
     color: white;
 }
@@ -106,7 +118,6 @@ nav ul a{
     display: flex;
     justify-content: center;
     align-items: center;
-    bor
 }
 .about_button a{
     text-decoration: none;
@@ -122,14 +133,18 @@ nav ul a{
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.about_button a:hover{
+    background-color: #3D3D3D;
+    color: white;
+}
 
 .learn_more{
     background-color: #EDF4ED;
-    margin-right: 200px;
-    padding: 10px;
+    margin-right: 155px;
+    padding: 50px;
 }
 .learn_more h2{
-    font-size: 30px;
+    font-size: 35px;
     display: flex;
     justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -137,6 +152,7 @@ nav ul a{
 .learn_more p{
     color: #3D3D3D;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
 }
 
 .contact_section{
@@ -152,11 +168,11 @@ nav ul a{
 }
 .gear_up{
     background-color: white;
-    margin-left: 200px;
-    padding: 10px;
+    margin-left: 155px;
+    padding: 50px;
 }
 .gear_up h2{
-    font-size: 30px;
+    font-size: 35px;
     display: flex;
     justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -164,12 +180,12 @@ nav ul a{
 .gear_up p{
     color: #3D3D3D;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
 }
 .contact_button{
     display: flex;
     justify-content: center;
     align-items: center;
-    bor
 }
 .contact_button a{
     text-decoration: none;
@@ -185,7 +201,10 @@ nav ul a{
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+.contact_button a:hover{
+    background-color: #3D3D3D;
+    color: white;
+}
 footer{
     background-color: #3D3D3D;
     height: 80px;
