@@ -266,7 +266,7 @@ nav li a:hover{
     font-size: 28px;
     margin-bottom: 15px;
     text-align: center;
-    color: #3D3D3D;
+    color: #252525;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -277,6 +277,69 @@ nav li a:hover{
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+.title h5{
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 5px;
+}
+.title h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #3D3D3D;
+}
+form label {
+    margin-bottom: 5px;
+}
+
+.main_content{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    color: #3D3D3D;
+}
+.main_content img{
+    border-radius: 10px;
+}
+.contact_form{
+    display: flex;
+    align-items: center;
+    background-color: #EDF4ED;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.responses{
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#submit{
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 
 footer{
     background-color: #3D3D3D;
